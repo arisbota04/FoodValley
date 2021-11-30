@@ -7,7 +7,7 @@ var baseURL;
   //  baseURL = "http://127.0.0.1:8000";
 // }
 
-baseURL = 'https://backend-rupesh.herokuapp.com/';
+baseURL = 'https://foodvalley-backend.herokuapp.com/';
 
 const api = axios.create({
   baseURL: baseURL,
