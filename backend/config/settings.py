@@ -88,20 +88,20 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# Heroku Database
+# # Heroku Database
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd6236p7mi60k75',
-        'USER': 'pjaewckhvbfree',
+        'NAME': 'd6r2d4o7u040ck',
+        'USER': 'hnfjaruefqqtwa',
         'PORT': 5432,
-        'HOST': 'ec2-3-227-181-85.compute-1.amazonaws.com',
-        'PASSWORD': '32b1d6da49a5b906d7a44953167e60bc1b2097df5ab42c2f46ab7eff826d33d6',
+        'HOST': 'ec2-54-144-165-97.compute-1.amazonaws.com',
+        'PASSWORD': '4eabb59f351bfec800483c5d12384a74ff42e45dd4425c04ff5d05f94f7b87c8',
     }
- }
+}
 
 # Local Database
-#DATABASES = {
+# DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.sqlite3',
 #         'NAME': BASE_DIR / 'db.sqlite3',
@@ -157,9 +157,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 cloudinary.config(
-    cloud_name="techis",
-    api_key="886187759951178",
-    api_secret="WGcWrWfkPlxdOCdlFaLTdjSNtfo",
+    cloud_name="dycecj1dc",
+    api_key="373434666932725",
+    api_secret="B9cu7pmwhOPklo9S8jrMnsI99zc",
     secure=True
 )
 
